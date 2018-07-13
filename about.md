@@ -1,42 +1,22 @@
 ---
 layout: page
-title: 关于我 
+title: 关于我
 ---
-
-一个 iOS SDK 开发者，喜欢研究一些新技术。
 <p>
-平时喜欢整理个人博客，逛逛技术论坛。
-<p>
-了解一些 前端 基本概念和 Python 的简单用法。
-
+ 我养过一只猫，它总是围着我蹭，转来转去，等我把它抱起来又拼了命挣脱。想要自由，又想我陪着你，让我属于你也让我不要干涉你。后来我把它和笼子一起扔到了海里，你不是喜欢鱼吗？
 <p>
 
-<h3> 我们的博客 </h3>  
+<h3> 博客 </h3>  
 
 <p>
 
-是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+博客源码基于 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> ，稍作修改就能使用，强烈推荐
 
 <p>
 
-如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
-教程
-
 <p>
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
-
-<p> 
-
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
-
-<p> 
-
-<p> 
-
-<p> 
+<p>
 
 
 {% include comments.html %}
-
