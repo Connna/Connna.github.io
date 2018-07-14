@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fragment切换页面内容不刷新的解决办法
-tags: Android   
+tag: Android   
 ---
 
 我使用Fragment分为这几步

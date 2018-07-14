@@ -12,7 +12,7 @@ tags: Android
 
 > 安卓有个很好用的网络连接的库，叫okhttp3。当然okhttp3还有其他已经封装好的库，不过我们现在只用原生的okhttp3来实现我们的需求。
 
-有关okhttp3的使用可以看这里  [Okhttp3的基本使用](./okhttp3)  ，这里就不在重复赘述了。
+有关okhttp3的使用可以看这里  [Okhttp3的基本使用](./okhttp)  ，这里就不在重复赘述了。
 
 **首先导入库**
 
@@ -28,7 +28,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>	//写入文件权限
 ~~~
 
-如果你是安卓6.0及以上的系统，还需要在代码中手动获取，详细点这里 [安卓6.0动态获取权限举例](./android6.0)
+如果你是安卓6.0及以上的系统，还需要在代码中手动获取，详细点这里 [安卓6.0动态获取权限举例]({% post_url 2018-7-14-Android6.0-Net-jurisdiction %})
 
 ---
 
