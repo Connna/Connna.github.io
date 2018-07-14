@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: post
 title: Fragment详解
-date:
 tags: Android   
 ---
 
