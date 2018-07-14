@@ -28,7 +28,7 @@ return view;
  }
 ~~~
 
-
+---
 
 #### Fragment中操作控件
 
@@ -42,7 +42,7 @@ return view;
             }
 ~~~
 
-
+---
 
 ### Fragment与Activity关联
 
@@ -54,11 +54,13 @@ return view;
 
 一个fraglayout可以并且只能用于显示Fragment，但是要记住
 
->Fraglayout可以显示不同的Fragment，Fragment也可以显示在不同的Fraglayout上
+**Fraglayout可以显示不同的Fragment，Fragment也可以显示在不同的Fraglayout上**
+
+
 
 ~~~java
-getFragmentManager().				//获得Fragment管理器
-				beginTransaction()	//开启事务
+	//获得Fragment管理器
+getFragmentManager().beginTransaction()	//开启事务
 					.add(R.id.xxxx	//使用add方法添加Fragment，它有两个参数
 						，Fragment) //1、放到哪里。2、放什么东西
 						  	.commitAllowingStateLoss();
@@ -69,7 +71,7 @@ getFragmentManager().				//获得Fragment管理器
 >
 >remove方法 : Fragment被remove后，Fragment的生命周期会一直执行完onDetach，之后Fragment的实例也会从FragmentManager中移除。
 
-
+---
 
 #### Fragment中getActivity()为Null的问题
 
@@ -89,7 +91,7 @@ getActivity()为null的解决方法：
 
 3、其次，在onDestroy()中把异步进程全部销毁，避免出现回调为null的问题
 
-
+---
 
 #### 向Fragment传递参数
 
@@ -114,7 +116,7 @@ if(getArguments()!=null){
 Fragment fm = Fragment.newInstance("我是参数");
 ~~~
 
-
+---
 
 #### Fragment回退栈
 
@@ -137,6 +139,8 @@ getFragmentManager().beginTransaction().replace(R.id.fl_main,bFragment)
 为什么会重新初始化呢？ 这是因为我们是调用replace()方法更换Fragment发生的问题
 
 >replace()方法相当于remove()方法（删除） 和add()方法（添加）两个方法同时使用。
+
+---
 
 #### Fragment和Activity之间的通信
 

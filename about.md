@@ -3,7 +3,7 @@ layout: page
 title: 关于我
 ---
 <p>
-
+<h3> freedom </h3>  
 <p>
 
  我养过一只猫，
